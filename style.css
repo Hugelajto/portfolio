@@ -1,0 +1,77 @@
+body,
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('path/to/your/font.woff2') format('woff2');
+    /* Additional font properties if needed */
+  }
+
+body{
+    background-color: #4A5759;
+}
+
+.wrapper{
+    position: absolute;
+}
+
+
+.image-container{
+    width: 1920px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.header-img{
+    width: 100%;
+    height: 350px;
+    display: block;
+}
+
+
+.bottomright{
+    position: absolute;
+    bottom: 130px;
+    right: 200px;
+    font-size: 80px;
+    font-family: impact;    
+    color: #222c2e;
+}
+
+.bottom2{
+    font-family: 'Dancing Script',cursive;
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+    font-size: 30px;
+    color: white;
+    }
+
+.aside-container{
+    width: 1920px;
+    height: 50px;
+    background-color: #B0C4B1;
+}
+
+.aside-text{
+    font-family: 'Dancing Script';
+    position: absolute;
+    color: #w222c2e;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+ 
+ 
+    
+   
+
+  
