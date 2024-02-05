@@ -58,11 +58,10 @@ body{
 
 .aside-text{
     font-family: 'Dancing Script';
-    position: absolute;
-    color: #w222c2e;
+    color: #222c2e;
     font-size: 20px;
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
