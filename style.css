@@ -18,12 +18,12 @@ body{
     position: absolute;
 }
 
-
 .image-container{
     width: 1920px;
     height: 350px;
     overflow: hidden;
-}
+    position: relative;
+    }
 
 .header-img{
     width: 100%;
@@ -33,8 +33,9 @@ body{
 
 
 .bottomright{
+    display: flex;
     position: absolute;
-    bottom: 280px;
+    bottom: 100px;
     right: 200px;
     font-size: 80px;
     font-family: impact;    
@@ -44,13 +45,17 @@ body{
 .bottom2{
     font-family: 'Dancing Script',cursive;
     position: absolute;
-    bottom: 260px;
+    bottom: 95px;
     right: 200px;
     font-size: 30px;
     color: white;
     }
 
-.aside-container{
+    .aside-container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    align-self: self-start;
     width: 1920px;
     height: 50px;
     background-color: #B0C4B1;
@@ -65,9 +70,7 @@ body{
 }
 
 .main-container{
-    justify-content: center;
-    align-content: center;
-    width: 400px;
+    width: 50%;
     height: 500px;
     background-color: #84A98C;
     text-align: center;
@@ -75,13 +78,32 @@ body{
     position: relative;
 }
 
+.section-header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 7vh; 
+    width: 100%;
+    margin: 0;
+    background-color: #B0C4B1;
+}
+
 .header-title{
-    font-size: 30px;
+    align-self: center;
+    font-size:45px;
+     font-family: 'Dancing Script';
+     color: #222c2e;
 }
 
 .section-param{
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: tahoma;
+    margin: 1em;
 }
+
+
 
 
 
